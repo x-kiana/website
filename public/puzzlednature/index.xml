@@ -1,0 +1,53 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+	<title>Kianas Website</title>
+	<link>https://kianarashidi.xyz/puzzlednature/</link>
+	<description>Recent content in Puzzlednatures on Kianas Website</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Sat, 23 Apr 2022 19:27:14 -0700</lastBuildDate>
+	
+	<atom:link href="https://kianarashidi.xyz/puzzlednature/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	
+		<item>
+	<title>Poem #1</title>
+	<link>https://kianarashidi.xyz/puzzlednature/poem1/</link>
+	<pubDate>Sat, 23 Apr 2022 19:27:14 -0700</pubDate>
+	
+	<guid>https://kianarashidi.xyz/puzzlednature/poem1/</guid>
+	<description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;forget-me-not.png&#34; width=&#34;320vw&#34; height=&#34;400vh&#34;/&gt;
+&lt;/figure&gt;
+
+Sometimes the flowers come with poems, so let&amp;rsquo;s have a bit of fun with it.
+To read the poem, copy the code below to a .c file and compile it.
+Run it, and when prompted paste the content of this file into the terminal:
+&lt;a href=&#34;https://kianarashidi.xyz/forget-me-not.txt&#34;&gt;forget-me-not&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; #include &amp;lt;stdio.h&amp;gt;
+  #include &amp;lt;stdlib.h&amp;gt;
+
+  #define POEM_SIZE 413
+
+  int main() {
+    char* poem = malloc(sizeof(char));
+    int x = 1;
+    printf(&amp;#34;paste what you copied on the website :) &amp;#34;);
+    for (int i = 0; i &amp;lt; POEM_SIZE; i++) {
+      scanf(&amp;#34;%2x&amp;#34;, &amp;amp;x);
+      poem[i] = (char)x;
+      if (x == 0) {
+        break;
+      }
+    }
+    printf(&amp;#34;\n%s\n&amp;#34;, poem);
+    free(poem);
+    return 0;
+  } 
+&lt;/code&gt;&lt;/pre&gt;</description>
+</item>
+
+	
+	
+	</channel>
+</rss>

@@ -1,0 +1,35 @@
+baseURL: 'https://kianarashidi.xyz'
+languageCode: en-us
+title: Kianas Website
+
+theme: chego
+
+menu:
+  main:
+    - name: Home
+      url: /home/
+      weight: 1
+    - name: Blog
+      url: /blog/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
+    - name: Puzzled Nature
+      url: /puzzlednature/
+      weight: 4
+
+params:
+  colours:
+    main_bg: '#1d2021'
+    normal_bg: '#282828'
+    normal_fg: '#ebdbb2'
+    normal_bd: '#6db1c9'
+    header: '#155569'
+    bar_bg: '#282828'
+    bar_bg_hv: '#1d2021'
+    bar_fg: '#62e3c3'
+    bar_bd: '#6db1c9'
+    rule: '#7be3a5'
+    link_unvisited: '#458588'
+    link_visited: '#689d6a'
