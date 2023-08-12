@@ -2,6 +2,7 @@
 title: "About Me"
 date: 2023-07-23T18:15:55-07:00
 draft: false 
+front_page: true
 ---
 {{< figure src="may23-photo.jpg" width="300vw" height="400vw" >}}
 

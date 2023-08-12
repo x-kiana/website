@@ -1,0 +1,40 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+	<title>Kianas Website</title>
+	<link>https://kianarashidi.xyz/blog/</link>
+	<description>Recent content in Blogs on Kianas Website</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Fri, 11 Aug 2023 22:37:30 -0700</lastBuildDate>
+	
+	<atom:link href="https://kianarashidi.xyz/blog/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	
+		<item>
+	<title>Seals</title>
+	<link>https://kianarashidi.xyz/blog/seals/</link>
+	<pubDate>Fri, 11 Aug 2023 22:37:30 -0700</pubDate>
+	
+	<guid>https://kianarashidi.xyz/blog/seals/</guid>
+	<description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;paddling.jpeg&#34; width=&#34;640vw&#34; height=&#34;180vh&#34;/&gt;
+&lt;/figure&gt;
+
+</description>
+</item>
+
+	
+		<item>
+	<title>Blog</title>
+	<link>https://kianarashidi.xyz/blog/blog/</link>
+	<pubDate>Sun, 23 Jul 2023 19:43:17 -0700</pubDate>
+	
+	<guid>https://kianarashidi.xyz/blog/blog/</guid>
+	<description>&lt;p&gt;Soon, this page is going to be filled with posts about me and things I find interesting.&lt;/p&gt;
+</description>
+</item>
+
+	
+	
+	</channel>
+</rss>

@@ -13,6 +13,11 @@ img {
 	max-width: 100% ;
 }
 
+img[src$='#center'] {
+    display: block;
+    margin: 0.7rem auto;
+}
+
 header h1 {
 	text-align: center ;
 }
@@ -42,4 +47,15 @@ footer {
 }
 #nextart,#prevart {
 	max-width: 33% ;
+}
+
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  figure img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; }
 }
